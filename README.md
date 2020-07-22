@@ -1,1 +1,2 @@
-# Data-Science-Web-Apps-using-StreamLit
+# UberRiders
+A streamlit data science web application for Uber rides in New York City
