@@ -32,7 +32,7 @@ def load_data(nrows):
 
 data = load_data(100000)
 
-hour = st.slider("Hour to look at", 0, 23)
+hour = st.sidebar.slider("Hour to look at", 0, 23)
 
 data = data[data[DATE_TIME].dt.hour == hour]
 
